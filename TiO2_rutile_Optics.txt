@@ -1,0 +1,449 @@
+ Job started on host MSI
+ at Sun Mar 10 17:48:43 2024
+
+ +-------------------------------------------------+
+ |                                                 |
+ |      CCC   AA    SSS  TTTTT  EEEEE  PPPP        |
+ |     C     A  A  S       T    E      P   P       |
+ |     C     AAAA   SS     T    EEE    PPPP        |
+ |     C     A  A     S    T    E      P           |
+ |      CCC  A  A  SSS     T    EEEEE  P           |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ | Materials Studio CASTEP version 2017            |
+ | Ab Initio Total Energy Program                  |
+ |                                                 |
+ | Authors:                                        |
+ | M. Segall, M. Probert, C. Pickard, P. Hasnip,   |
+ | S. Clark, K. Refson, J. R. Yates, M. Payne      |
+ |                                                 |
+ | Contributors:                                   |
+ | P. Lindan, P. Haynes, J. White, V. Milman,      |
+ | N. Govind, M. Gibson, P. Tulip, V. Cocula,      |
+ | B. Montanari, D. Quigley, M. Glover,            |
+ | L. Bernasconi, A. Perlov, M. Plummer,           |
+ | E. McNellis, J. Meyer, J. Gale, D. Jochym       |
+ | J. Aarons, B. Walker, R. Gillen, D. Jones       |
+ | T. Green, I. J. Bush, C. J. Armstrong,          |
+ | E. J. Higgins, E. L. Brown, M. S. McFly         |
+ |                                                 |
+ | Copyright (c) 2000 - 2016                       |
+ |                                                 |
+ | Please cite                                     |
+ |                                                 |
+ |     "First principles methods using CASTEP"     |
+ |                                                 |
+ |         Zeitschrift fuer Kristallographie       |
+ |           220(5-6) pp. 567-570 (2005)           |
+ |                                                 |
+ | S. J. Clark, M. D. Segall, C. J. Pickard,       |
+ | P. J. Hasnip, M. J. Probert, K. Refson,         |
+ | M. C. Payne                                     |
+ |                                                 |
+ |       in all publications arising from          |
+ |              your use of CASTEP                 |
+ |                                                 |
+ +-------------------------------------------------+
+ 
+ 
+ This version was compiled for x86_64-windows-msvc2008 on May 05 2016
+ Intel(R) Math Kernel Library Version 11.1.2 
+ Fundamental constants values: CODATA 2010
+ 
+License checkout of MS_castep successful
+ 
+Reading continuation data from model file TiO2_rutile_Optics.check
+ 
+ Atomic calculation performed for O: 1s2 2s2 2p4
+ 
+ Converged in 61 iterations to an ae energy of -2040.902 eV
+ 
+ Identity difference: 4.10E-04
+ 
+   ============================================================                
+   | Pseudopotential Report - Date of generation 10-03-2024   |                
+   ------------------------------------------------------------                
+   | Element: O Ionic charge:  6.00 Level of theory: PBE      |                
+   | Atomic Solver: Koelling-Harmon                           |                
+   |                                                          |                
+   |               Reference Electronic Structure             |                
+   |         Orbital         Occupation         Energy        |                
+   |            2s              2.000           -0.881        |                
+   |            2p              4.000           -0.332        |                
+   |                                                          |                
+   |                 Pseudopotential Definition               |                
+   |        Beta     l      e      Rc     scheme   norm       |                
+   |          1      0   -0.881   1.100     qc      0         |                
+   |          2      0    0.250   1.100     qc      0         |                
+   |          3      1   -0.332   1.100     qc      0         |                
+   |          4      1    0.250   1.100     qc      0         |                
+   |         loc     2    0.000   1.100     pn      0         |                
+   |                                                          |                
+   | Augmentation charge Rinner = 0.769                       |                
+   | Partial core correction Rc = 0.769                       |                
+   ------------------------------------------------------------                
+   | "2|1.1|14|18|21|20UU:21UU(qc=7)[]"                       |                
+   ------------------------------------------------------------                
+   |      Author: Chris J. Pickard, Cambridge University      |                
+   ============================================================                
+ 
+ Doing a self consistent calculation for the test configuration
+ 
+ Atomic calculation performed for O: 1s2 2s2 2p4
+ 
+ Converged in 61 iterations to an ae energy of -2040.902 eV
+ 
+ ---------------------------------------
+ AE eigenvalue nl 10 =      -18.91475256
+ AE eigenvalue nl 20 =       -0.88057101
+ AE eigenvalue nl 21 =       -0.33186952
+ ---------------------------------------
+ PS eigenvalue nl 20 =       -0.88059206
+ PS eigenvalue nl 21 =       -0.33182157
+ ---------------------------------------
+ Maximum eigenvalue error:   4.80E-05
+ 
+ Derived cutoff energies: C=  14 M=  17 F=  20 E=  22
+ 
+ 
+ ***************************************
+ 
+ Atomic calculation performed for Ti: 1s2 2s2 2p6 3s2 3p6 3d2 4s2
+ 
+ Converged in 79 iterations to an ae energy of -23226.658 eV
+ 
+ Identity difference: 7.37E-03
+ 
+   ============================================================                
+   | Pseudopotential Report - Date of generation 10-03-2024   |                
+   ------------------------------------------------------------                
+   | Element: Ti Ionic charge: 12.00 Level of theory: PBE     |                
+   | Atomic Solver: Koelling-Harmon                           |                
+   |                                                          |                
+   |               Reference Electronic Structure             |                
+   |         Orbital         Occupation         Energy        |                
+   |            3s              2.000           -2.302        |                
+   |            3p              6.000           -1.428        |                
+   |            4s              2.000           -0.164        |                
+   |            3d              2.000           -0.157        |                
+   |                                                          |                
+   |                 Pseudopotential Definition               |                
+   |        Beta     l      e      Rc     scheme   norm       |                
+   |          1      0   -2.302   1.793     qc      0         |                
+   |          2      0   -0.164   1.793     qc      0         |                
+   |          3      0    0.250   1.793     qc      0         |                
+   |          4      1   -1.428   1.793     qc      0         |                
+   |          5      1    0.250   1.793     qc      0         |                
+   |          6      2   -0.157   1.793     qc      0         |                
+   |          7      2    0.250   1.793     qc      0         |                
+   |         loc     3    0.000   1.793     pn      0         |                
+   |                                                          |                
+   | Augmentation charge Rinner = 1.263                       |                
+   | Partial core correction Rc = 1.263                       |                
+   ------------------------------------------------------------                
+   | "3|1.8|10|12|14|30U:40UU:31UU:32UU(qc=5.5)[]"            |                
+   ------------------------------------------------------------                
+   |      Author: Chris J. Pickard, Cambridge University      |                
+   ============================================================                
+ 
+ Doing a self consistent calculation for the test configuration
+ 
+ Atomic calculation performed for Ti: 1s2 2s2 2p6 3s2 3p6 3d2 4s2
+ 
+ Converged in 79 iterations to an ae energy of -23226.658 eV
+ 
+ ---------------------------------------
+ AE eigenvalue nl 10 =     -178.92794418
+ AE eigenvalue nl 20 =      -19.73204424
+ AE eigenvalue nl 21 =      -16.32622453
+ AE eigenvalue nl 30 =       -2.30173789
+ AE eigenvalue nl 31 =       -1.42811001
+ AE eigenvalue nl 32 =       -0.15651121
+ AE eigenvalue nl 40 =       -0.16415844
+ ---------------------------------------
+ PS eigenvalue nl 30 =       -2.30160647
+ PS eigenvalue nl 31 =       -1.42799454
+ PS eigenvalue nl 32 =       -0.15643340
+ PS eigenvalue nl 40 =       -0.16414548
+ ---------------------------------------
+ Maximum eigenvalue error:   1.31E-04
+ 
+ Derived cutoff energies: C=   9 M=  12 F=  12 E=  14
+ 
+ 
+ ***************************************
+ 
+ Pseudo atomic calculation performed for O 2s2 2p4
+ 
+ Converged in 23 iterations to a total energy of -432.2435 eV
+ 
+ 
+ Pseudo atomic calculation performed for Ti 3s2 3p6 3d2 4s2
+ 
+ Converged in 32 iterations to a total energy of -1586.9574 eV
+ 
+Initialising basis set for model.
+Reinitialising basis set for current geometry.
+Continuing from previous run with ground state wavefunction.
+Continuing from previous run with ground state density.
+ Info: SPECTRAL_TASK modified from BANDSTRUCTURE to Optics
+ Calculation parallelised over 10 processes.
+ Data is distributed by G-vector(5-way) and k-point(2-way)
+
+ ************************************ Title ************************************
+ CASTEP calculation from Materials Studio
+
+ ***************************** General Parameters ******************************
+  
+ output verbosity                               : normal  (1)
+ continuing from                                : TiO2_rutile_Optics.check
+ write checkpoint data to                       : TiO2_rutile_Optics.check
+ type of calculation                            : Electronic Spectroscopy
+ stress calculation                             : off
+ density difference calculation                 : off
+ electron localisation func (ELF) calculation   : off
+ Hirshfeld analysis                             : off
+ unlimited duration calculation
+ timing information                             : on
+ memory usage estimate                          : on
+ write final potential to formatted file        : off
+ write final density to formatted file          : off
+ write BibTeX reference list                    : on
+ write OTFG pseudopotential files               : on
+ checkpoint writing                             : both castep_bin and check files
+  
+ output         length unit                     : A
+ output           mass unit                     : amu
+ output           time unit                     : ps
+ output         charge unit                     : e
+ output           spin unit                     : hbar/2
+ output         energy unit                     : eV
+ output          force unit                     : eV/A
+ output       velocity unit                     : A/ps
+ output       pressure unit                     : GPa
+ output     inv_length unit                     : 1/A
+ output      frequency unit                     : cm-1
+ output force constant unit                     : eV/A**2
+ output         volume unit                     : A**3
+ output   IR intensity unit                     : (D/A)**2/amu
+ output         dipole unit                     : D
+ output         efield unit                     : eV/A/e
+ output        entropy unit                     : J/mol/K
+  
+ wavefunctions paging                           : none
+ random number generator seed                   :  174137849
+ data distribution                              : optimal for this architecture
+ optimization strategy                          : balance speed and memory
+
+ *********************** Exchange-Correlation Parameters ***********************
+  
+ using functional                               : Perdew Burke Ernzerhof
+ relativistic treatment                         : Koelling-Harmon
+ DFT+D: Semi-empirical dispersion correction    : off
+
+ ************************* Pseudopotential Parameters **************************
+  
+ pseudopotential representation                 : reciprocal space
+ <beta|phi> representation                      : reciprocal space
+ spin-orbit coupling                            : off
+
+ **************************** Basis Set Parameters *****************************
+  
+ plane wave basis set cut-off                   :   489.8000   eV
+ size of standard grid                          :     1.5000
+ size of   fine   gmax                          :    17.0074   1/A
+ largest prime factor in FFT                    :          5
+ finite basis set correction                    : none
+
+ **************************** Electronic Parameters ****************************
+  
+ number of  electrons                           :  48.00    
+ net charge of system                           :  0.000    
+ treating system as non-spin-polarized
+ number of bands                                :         29
+
+ ********************* Electronic Minimization Parameters **********************
+  
+ Method: Treating system as metallic with density mixing treatment of electrons,
+         and number of  SD  steps               :          1
+         and number of  CG  steps               :          4
+  
+ total energy / atom convergence tol.           : 0.2000E-05   eV
+ eigen-energy convergence tolerance             : 0.4138E-06   eV
+ max force / atom convergence tol.              : ignored
+ convergence tolerance window                   :          3   cycles
+ max. number of SCF cycles                      :        100
+ number of fixed-spin iterations                :         10
+ smearing scheme                                : Gaussian
+ smearing width                                 : 0.1000       eV
+ Fermi energy convergence tolerance             : 0.2721E-13   eV
+ periodic dipole correction                     : NONE
+
+ ************************** Density Mixing Parameters **************************
+  
+ density-mixing scheme                          : Pulay
+ max. length of mixing history                  :         20
+ charge density mixing amplitude                : 0.5000    
+ cut-off energy for mixing                      :  489.8       eV
+ charge density mixing g-vector                 :  1.500       1/A
+
+ ********************* Electronic Spectroscopy Parameters **********************
+  
+ electronic spectroscopy with theory level      : DFT       
+ spectroscopy calculation                       : optics
+ max. number of iterations                      :         60
+ max. steps per iteration                       :          5
+ number of bands / k-point                      :         46
+ band convergence tolerance                     : 0.1000E-04   eV
+ write orbitals file                            : off
+
+ *******************************************************************************
+  
+ 
+                           -------------------------------
+                                      Unit Cell
+                           -------------------------------
+        Real Lattice(A)                      Reciprocal Lattice(1/A)
+   4.5940000   0.0000000   0.0000000        1.3676938   0.0000000   0.0000000
+   0.0000000   4.5940000   0.0000000        0.0000000   1.3676938   0.0000000
+   0.0000000   0.0000000   2.9590000        0.0000000   0.0000000   2.1234151
+ 
+                       Lattice parameters(A)       Cell Angles
+                    a =    4.594000          alpha =   90.000000
+                    b =    4.594000          beta  =   90.000000
+                    c =    2.959000          gamma =   90.000000
+ 
+                       Current cell volume =   62.449210       A**3
+ 
+                           -------------------------------
+                                     Cell Contents
+                           -------------------------------
+                         Total number of ions in cell =    6
+                      Total number of species in cell =    2
+                        Max number of any one species =    4
+ 
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            x  Element    Atom        Fractional coordinates of atoms  x
+            x            Number           u          v          w      x
+            x----------------------------------------------------------x
+            x  O            1         0.304489   0.304489   0.000000   x 
+            x  O            2        -0.304489  -0.304489   0.000000   x 
+            x  O            3         0.195511   0.804489   0.500000   x 
+            x  O            4         0.804489   0.195511   0.500000   x 
+            x  Ti           1         0.000000   0.000000   0.000000   x 
+            x  Ti           2         0.500000   0.500000   0.500000   x 
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 
+ 
+                         No user defined ionic velocities
+ 
+                           -------------------------------
+                                   Details of Species
+                           -------------------------------
+ 
+                               Mass of species in AMU
+                                    O   15.9989996
+                                    Ti   47.9000015
+ 
+                          Electric Quadrupole Moment (Barn)
+                                    O   -0.0255800 Isotope 17
+                                    Ti    0.3020000 Isotope 47
+ 
+                          Files used for pseudopotentials:
+                                    O 2|1.1|14|18|21|20UU:21UU(qc=7)[]
+                                    Ti 3|1.8|10|12|14|30U:40UU:31UU:32UU(qc=5.5)[]
+ 
+                           -------------------------------
+                              k-Points For BZ Sampling
+                           -------------------------------
+                       MP grid size for SCF calculation is  4  4  7
+                            with an offset of   0.000  0.000  0.000
+                       Number of kpoints used =            12
+ 
+                           -------------------------------
+                               Symmetry and Constraints
+                           -------------------------------
+ 
+                      Maximum deviation from symmetry = 0.102007E-14     ANG
+ 
+                      Number of symmetry operations   =          16
+         There are no ionic constraints specified or generated for this cell
+                      Point group of crystal =    15: D4h, 4/mmm, 4/m 2/m 2/m
+                      Space group of crystal =   136: P4_2/mnm, -P 4n 2n
+ 
+             Set iprint > 1 for details on symmetry rotations/translations
+ 
+                         Centre of mass is NOT constrained
+ 
+                         Number of cell constraints= 4
+                         Cell constraints are:  1 1 3 0 0 0
+ 
+                         External pressure/stress (GPa)
+                          0.00000   0.00000   0.00000
+                                    0.00000   0.00000
+                                              0.00000
+ 
++---------------- MEMORY AND SCRATCH DISK ESTIMATES PER PROCESS --------------+
+|                                                     Memory          Disk    |
+|                                               ----------------------------- |
+| Approx. total storage required per process           43.3 MB         4.1 MB |
+|                                                                             |
+| Requirements will fluctuate during execution and may exceed these estimates |
++-----------------------------------------------------------------------------+
+ 
+  =====================================================================
+  +                                                                   +
+  +                 Calculation of Spectral Properties                +
+  +                                                                   +
+  + Calculation re-parallelised over 10 processes.                    +
+  + Data distributed by G-vector(5-way), k-point(2-way), band(1-way)  +
+  + Data distributed by G-vector(5-way), k-point(2-way)               +
+  +                                                                   +
+  =====================================================================
+  Starting k-point:        1 of        6 on this process      |<-- SPEC
+  Starting k-point:        2 of        6 on this process      |<-- SPEC
+  Starting k-point:        3 of        6 on this process      |<-- SPEC
+  Starting k-point:        4 of        6 on this process      |<-- SPEC
+  Starting k-point:        5 of        6 on this process      |<-- SPEC
+  Starting k-point:        6 of        6 on this process      |<-- SPEC
+  Total time to compute matrix elements              4.23 sec |<-- SPEC
+  
+  + Calculation re-parallelised over 10 processes.                    +
+  + Data distributed by G-vector(5-way), k-point(2-way)               +
+ 
+ ***************** Symmetrised Forces *****************
+ *                                                    *
+ *            Cartesian components (eV/A)             *
+ * -------------------------------------------------- *
+ *                   x            y            z      *
+ *                                                    *
+ * O         1     -0.01332     -0.01332      0.00000 *
+ * O         2      0.01332      0.01332      0.00000 *
+ * O         3      0.01332     -0.01332     -0.00000 *
+ * O         4     -0.01332      0.01332     -0.00000 *
+ * Ti        1      0.00000      0.00000      0.00000 *
+ * Ti        2      0.00000      0.00000      0.00000 *
+ *                                                    *
+ ******************************************************
+
+Writing analysis data to TiO2_rutile_Optics.castep_bin
+
+Writing model to TiO2_rutile_Optics.check
+ 
+ A BibTeX formatted list of references used in this run has been written to 
+ TiO2_rutile_Optics.bib
+ 
+Initialisation time =     14.09 s
+Calculation time    =      7.41 s
+Finalisation time   =      0.02 s
+Total time          =     21.52 s
+  
+Overall parallel efficiency rating: Terrible (26%)                              
+  
+Data was distributed by:-
+G-vector (5-way); efficiency rating: Poor (35%)                                 
+k-point (2-way); efficiency rating: Mediocre (57%)                              
+  
+Parallel notes:
+1) Calculation only took 21.5 s, so efficiency estimates may be inaccurate.     
